@@ -1,10 +1,75 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Assignment
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="nav flex-column justify-content-between bg-light pt-5">
+    <div class="menu">
+      <h1 class="ms-5 mb-5">
+        <a href="#">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week5/logo-ANSWER.svg" alt="logo">
+        </a>
+      </h1>
+      <a href="#" class="nav-link link-dark d-flex align-items-center ms-5 mb-4 px-0 py-0">
+        <span class="material-icons me-3">
+          assessment
+        </span>
+        <h2 class="fw-bold mb-0">Dashboard</h2>
+      </a>
+      <a href="#" class="nav-link link-dark d-flex align-items-center ms-5 mb-4 px-0 py-0">
+        <span class="material-icons me-3">
+          question_answer
+        </span>
+        <h2 class="fw-bold mb-0">Question</h2>
+      </a>
+      <a href="assignment.html" class="nav-link link-dark d-flex align-items-center ms-5 mb-4 px-0 py-0">
+        <span class="material-icons me-3">
+          assignment
+        </span>
+        <h2 class="fw-bold mb-0">Assignment</h2>
+      </a>
+      <a href="#" class="nav-link link-dark d-flex align-items-center ms-5 mb-4 px-0 py-0">
+        <span class="material-icons me-3">
+          video_library
+        </span>
+        <h2 class="fw-bold mb-0">Course</h2>
+      </a>
+      <a href="index.html" class="current-link active nav-link link-success d-flex align-items-center ps-5 mb-4 px-0 py-0">
+        <span class="material-icons me-3">
+          people
+        </span>
+        <h2 class="fw-bold mb-0">Admin</h2>
+      </a>
+      <a href="#" class="nav-link link-dark d-flex align-items-center ms-5 mb-4 px-0 py-0">
+        <span class="material-icons me-3">
+          settings
+        </span>
+        <h2 class="fw-bold mb-0">Settings</h2>
+      </a>
+    </div>
+    <div class="user d-flex ms-5 mb-4">
+      <a href="#" class="text-decoration-none">
+        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg"
+          alt="頭像" class="rounded-circle me-3">
+        <div class="user-info">
+          <h3 class="fw-bold text-dark">Andy Chen</h3>
+          <p class="text-secondary">ansdy0401@mail.com</p>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
   <div class="row p-5">
     <header class="d-flex justify-content-between align-items-center mb-6">
       <div class="d-flex align-items-center">
@@ -199,3 +264,9 @@ current: index
     </div>
   </div>
 </div>
+  </main>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
