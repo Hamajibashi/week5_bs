@@ -3,18 +3,12 @@ nav {
     min-width: 296px;
     min-height: 100vh;
 
-    h2,
-    h3 {
-        font-size: 16px;
-    }
-
     .current-link {
         padding-left: $spacer*3.5;
         border-left: 4px solid $success;
     }
 
     .nav-link {
-        position: relative;
         @include hover-color;
     }
 
