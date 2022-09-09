@@ -1,26 +1,28 @@
 a:hover {
-    @include hover-color;
+  @include hover-color;
+}
+
+#userModal {
+  img {
+    width: 141px;
+    height: 141px;
   }
-  
-  #userModal {
-    img {
-      width: 141px;
-      height: 141px;
-    }
-  
-    .expand_more {
-      display: none;
-    }
-  
-    .expand_less {
-      display: inline-block;
-    }
-  
-    .collapsed .expand_more {
-      display: inline-block;
-    }
-  
-    .collapsed .expand_less {
-      display: none;
-    }
+
+  // 展開時，顯示向上箭頭，隱藏向下箭頭
+  .expand_more {
+    display: none;
   }
+
+  .expand_less {
+    display: inline-block;
+  }
+
+  // 未展開時（含 class collasped），顯示向下箭頭，隱藏向上箭頭
+  .collapsed .expand_more {
+    display: inline-block;
+  }
+
+  .collapsed .expand_less {
+    display: none;
+  }
+}
