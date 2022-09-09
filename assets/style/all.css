@@ -12296,19 +12296,9 @@ nav {
   min-height: 100vh;
 }
 
-nav h2, nav .h2,
-nav h3,
-nav .h3 {
-  font-size: 16px;
-}
-
 nav .current-link {
   padding-left: 3.5rem;
   border-left: 4px solid #198754;
-}
-
-nav .nav-link {
-  position: relative;
 }
 
 nav .nav-link:hover {
@@ -12326,6 +12316,15 @@ nav .user img {
 
 main {
   margin-left: 296px;
+}
+
+.font-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
 }
 
 a:hover:hover {
@@ -12351,15 +12350,6 @@ a:hover:hover {
 
 #userModal .collapsed .expand_less {
   display: none;
-}
-
-.font-mono {
-  font-family: 'Roboto Mono', monospace;
-}
-
-.card img {
-  width: 40px;
-  height: 40px;
 }
 
 /*# sourceMappingURL=all.css.map */
